@@ -11,7 +11,7 @@ const profileData = {
     lastLogin: '4/22/2006'
 };
 
-export default function Navigation() {
+export default function Profile() {
     return (
         <div class="card mb-3">
             <div class="row g-0">
