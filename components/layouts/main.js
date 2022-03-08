@@ -8,8 +8,7 @@ function PageTemplate({ children }) {
   return (
     <>
       <Head>
-        <title>React Bootstrap Mega Menu</title>
-
+        <title>Main Menu</title>
         <meta name="viewport" content="width=device-width" />
       </Head>
 

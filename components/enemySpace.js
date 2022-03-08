@@ -9,7 +9,7 @@ export default function FriendSpace() {
                     <div class="card-body">
                         <span>Alf #2</span>
                     </div>
-                    <img src="/alf.png" class="card-img-top" alt="..." />
+                    <img width="100%" height="90" src="/alf.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
                 <div class="col-6 col-sm-3">
@@ -17,7 +17,7 @@ export default function FriendSpace() {
                     <div class="card-body">
                         <span>Arnold #2</span>
                     </div>
-                    <img src="/terminator.png" class="card-img-top" alt="..." />
+                    <img width="100%" height="90" src="/terminator.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
                 <div class="col-6 col-sm-3">
@@ -25,7 +25,7 @@ export default function FriendSpace() {
                     <div class="card-body">
                         <span>Ack #2</span>
                     </div>
-                    <img src="/alien.png" class="card-img-top" alt="..." />
+                    <img width="100%" height="90" src="/alien.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
                 <div class="col-6 col-sm-3">
@@ -33,7 +33,7 @@ export default function FriendSpace() {
                     <div class="card-body">
                         <span>Cars #2</span>
                     </div>
-                    <img src="/cranberry.png" class="card-img-top" alt="..." />
+                    <img width="100%" height="90" src="/cranberry.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
 
@@ -45,7 +45,7 @@ export default function FriendSpace() {
                     <div class="card-body">
                         <span>Cran #2</span>
                     </div>
-                    <img src="/cranberry.png" class="card-img-top" alt="..." />
+                    <img width="100%" height="90" src="/cranberry.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
                 <div class="col-6 col-sm-3">
@@ -53,7 +53,7 @@ export default function FriendSpace() {
                     <div class="card-body">
                         <span>Crar2 #2</span>
                     </div>
-                    <img src="/traffic.png" class="card-img-top" alt="..." />
+                    <img width="100%" height="90" src="/traffic.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
                 <div class="col-6 col-sm-3">
@@ -61,7 +61,7 @@ export default function FriendSpace() {
                     <div class="card-body">
                         <span>Crar3 #2</span>
                     </div>
-                    <img src="/cranberry.png" class="card-img-top" alt="..." />
+                    <img width="100%" height="90" src="/cranberry.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
                 <div class="col-6 col-sm-3">
@@ -69,7 +69,7 @@ export default function FriendSpace() {
                     <div class="card-body">
                         <span>Crar4 #2</span>
                     </div>
-                    <img src="/cranberry.png" class="card-img-top" alt="..." />
+                    <img width="100%" height="90" src="/cranberry.png" class="card-img-top" alt="..." />
                     </div>
                 </div>
             </div>

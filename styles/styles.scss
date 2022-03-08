@@ -5,7 +5,7 @@
 // Page Defaults
 body {
   font-weight: 300;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 // -- Typography --
@@ -24,12 +24,15 @@ header {
   }
 }
 
-.parallax {
-  min-height: 400px;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-.paralsec {
-  background-image: url("/cafe-people.jpeg");
+.index-page-container {
+  display: block;
+  margin: auto 40px;
+  width: calc(100% - 40px * 2);
+
+  @media (min-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
 }

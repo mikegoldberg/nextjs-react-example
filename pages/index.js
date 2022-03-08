@@ -10,7 +10,6 @@ import FriendSpace from '../components/friendSpace';
 import EnemySpace from '../components/enemySpace';
 import {
   Button,
-  Col,
   Row
 } from "react-bootstrap";
 
@@ -28,12 +27,12 @@ export default function Home() {
 
       <main>
         <Row>
-          <Col>
+          <div class="index-page-container">
             <Profile />
             <Contact />
             <Interests />
-          </Col>
-          <Col>
+          </div>
+          <div class="index-page-container">
             <NetworkRelation />
             <Blurbs />
             {showFriendSpace ? (
@@ -43,8 +42,10 @@ export default function Home() {
             )}
             <Button
               onClick={toggleShowFriendSpace}
-              >Show {showFriendSpace ? 'Enemy' : 'Friend'} space</Button>
-          </Col>
+            >
+              Show {showFriendSpace ? 'Enemy' : 'Friend'} space
+            </Button>
+          </div>
         </Row>
       </main>
     </>
