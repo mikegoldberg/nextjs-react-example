@@ -9,13 +9,16 @@ import {
   Card,
 } from "react-bootstrap";
 import "../components/icons";
+import Profile from "../components/profile";
 
 export default function Home() {
   return (
     <>
       <Head></Head>
 
-      <main></main>
+      <main>
+        <Profile />
+      </main>
     </>
   );
 }
