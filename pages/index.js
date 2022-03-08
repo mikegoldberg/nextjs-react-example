@@ -5,6 +5,7 @@ import Blurbs from "../components/blurbs";
 import Contact from "../components/contact";
 import Interests from "../components/interests";
 import NetworkRelation from '../components/networkRelation';
+import FriendSpace from '../components/friendSpace';
 import {
   Col,
   Row
@@ -25,6 +26,7 @@ export default function Home() {
           <Col>
             <NetworkRelation />
             <Blurbs />
+            <FriendSpace />
           </Col>
         </Row>
       </main>
