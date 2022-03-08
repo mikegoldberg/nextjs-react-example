@@ -1,15 +1,8 @@
 import {
   Nav,
   Navbar,
-  Container,
-  Button,
-  Image,
-  Dropdown,
-  NavDropdown,
-  Col,
-  Row,
+  Container
 } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
 const navigationLinks = [

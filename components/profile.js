@@ -1,33 +1,3 @@
-
-import {
-    Jumbotron,
-    Button,
-    Container,
-    Image,
-    Row,
-    Col,
-    Card,
-  } from "react-bootstrap";
-  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-  import Link from "next/link";
-  
-  const navigationLinks = [
-    'Home',
-    'Browse',
-    'Search',
-    'Invite',
-    'Film',
-    'Mail',
-    'Blog',
-    'Favorites',
-    'Forum',
-    'Groups',
-    'Events',
-    'Videos',
-    'Music',
-    'Classifieds'
-  ].map(name => ({ name, slug: name.toLowerCase() }));
-
 const profileData = {
     name: 'Tom',
     quote: ':-)',

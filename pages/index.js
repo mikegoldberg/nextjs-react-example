@@ -10,6 +10,7 @@ import {
 } from "react-bootstrap";
 import "../components/icons";
 import Profile from "../components/profile";
+import Contact from "../components/contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
 
       <main>
         <Profile />
+        <Contact />
       </main>
     </>
   );

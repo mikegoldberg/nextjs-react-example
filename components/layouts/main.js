@@ -13,7 +13,7 @@ function PageTemplate({ children }) {
         <meta name="viewport" content="width=device-width" />
       </Head>
 
-      <div className="main">
+      <div class="main">
         <Navigation />
         {children}
       </div>
