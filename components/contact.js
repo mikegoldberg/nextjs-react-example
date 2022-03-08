@@ -3,6 +3,7 @@ import Link from "next/link";
 export default function Navigation() {
     return (
         <div class="container">
+            <h5 class="card-title">Contacting Tom</h5>
             <div class="row">
                 <div class="col">
                     <ul class="list-group-flush">
